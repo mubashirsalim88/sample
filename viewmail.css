@@ -1,0 +1,54 @@
+/* ... (previous CSS code) ... */
+
+/* Email details container styles */
+.email-details-container {
+    max-width: 800px;
+    margin: 20px auto;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .email-details-container header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+  
+  .email-details-container header h1 {
+    font-size: 24px;
+  }
+  
+  .email-details-container nav ul {
+    list-style: none;
+    display: flex;
+  }
+  
+  .email-details-container nav ul li {
+    margin-right: 10px;
+  }
+  
+  .email-details-container nav ul li a {
+    text-decoration: none;
+    color: #555;
+    padding: 8px 12px;
+    border-radius: 4px;
+    transition: background-color 0.3s ease;
+  }
+  
+  .email-details-container nav ul li a:hover {
+    background-color: #f0f0f0;
+  }
+  
+  .email-details-container .email-content {
+    font-size: 16px;
+    line-height: 1.6;
+  }
+  
+  .email-details-container .email-content hr {
+    margin: 20px 0;
+    border: 1px solid #ccc;
+  }
+  

@@ -1,0 +1,104 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Body styles */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f7f7f7;
+  color: #333;
+}
+
+/* Mailbox container styles */
+.mailbox-container {
+  max-width: 800px;
+  margin: 20px auto;
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Header styles */
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+header h1 {
+  font-size: 24px;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+}
+
+nav ul li {
+  margin-right: 10px;
+}
+
+nav ul li button{
+  border: 1px solid #000;
+  border-radius: 30px;
+  padding: 10px;
+}
+
+
+
+nav ul li a {
+  text-decoration: none;
+  color: #555;
+  padding: 8px 12px;
+  border-radius: 4px;
+  transition: background-color 0.3s ease;
+}
+
+nav ul li a:hover {
+  background-color: #f0f0f0;
+}
+
+/* Email list styles */
+.mail-list {
+  border-top: 1px solid #ddd;
+}
+
+.email-preview {
+  padding: 15px 0;
+  border-bottom: 1px solid #ddd;
+  transition: background-color 0.3s ease;
+}
+
+.email-preview:hover {
+  background-color: #f9f9f9;
+}
+
+.email-preview h2 {
+  font-size: 18px;
+  margin-bottom: 5px;
+  color: green;
+}
+
+.email-preview h3 {
+  font-size: 15px;
+  margin-bottom: 5px;
+  font-family: 'Times New Roman', Times, serif;
+}
+.email-preview p {
+  font-size: 14px;
+  color: #888;
+  margin-bottom: 3px;
+  background-color:aliceblue;
+}
+
+.email-preview span{
+  font-size: 14px;
+  margin-bottom: 3px;
+  color: #888;
+  border: 1px solid #000;
+  border-radius: 10px;
+}
